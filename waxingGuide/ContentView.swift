@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Welcome to my waxing app")
+        VStack{
+        Text("⛷🎿Welcome to my waxing app🏂")
             .padding()
+            NavigationLink(destination: sports())
+                 {
+                SimpleListItemView(title:"click to enter the waxing portal", caption: "")
+             }
+    }
     }
 }
 

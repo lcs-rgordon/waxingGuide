@@ -12,6 +12,8 @@
 		B8EE303B25FFBE0E0047AED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EE303A25FFBE0E0047AED3 /* Assets.xcassets */; };
 		B8EE303E25FFBE0E0047AED3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EE303D25FFBE0E0047AED3 /* Preview Assets.xcassets */; };
 		B8EE304C25FFC0B40047AED3 /* sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE304B25FFC0B40047AED3 /* sports.swift */; };
+		B8EE3051260262C80047AED3 /* SimpleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3050260262C80047AED3 /* SimpleListItemView.swift */; };
+		B8EE3055260264410047AED3 /* temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3054260264410047AED3 /* temperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B8EE303D25FFBE0E0047AED3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8EE303F25FFBE0E0047AED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8EE304B25FFC0B40047AED3 /* sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sports.swift; sourceTree = "<group>"; };
+		B8EE3050260262C80047AED3 /* SimpleListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListItemView.swift; sourceTree = "<group>"; };
+		B8EE3054260264410047AED3 /* temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temperature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			children = (
 				B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */,
 				B8EE303825FFBE090047AED3 /* ContentView.swift */,
+				B8EE3050260262C80047AED3 /* SimpleListItemView.swift */,
 				B8EE303A25FFBE0E0047AED3 /* Assets.xcassets */,
 				B8EE303F25FFBE0E0047AED3 /* Info.plist */,
 				B8EE304925FFBFF50047AED3 /* Views */,
@@ -76,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				B8EE304B25FFC0B40047AED3 /* sports.swift */,
+				B8EE3054260264410047AED3 /* temperature.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			files = (
 				B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */,
 				B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */,
+				B8EE3055260264410047AED3 /* temperature.swift in Sources */,
 				B8EE304C25FFC0B40047AED3 /* sports.swift in Sources */,
+				B8EE3051260262C80047AED3 /* SimpleListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
