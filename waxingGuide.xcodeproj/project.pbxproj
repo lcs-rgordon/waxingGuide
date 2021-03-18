@@ -14,6 +14,7 @@
 		B8EE304C25FFC0B40047AED3 /* sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE304B25FFC0B40047AED3 /* sports.swift */; };
 		B8EE3051260262C80047AED3 /* SimpleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3050260262C80047AED3 /* SimpleListItemView.swift */; };
 		B8EE3055260264410047AED3 /* temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3054260264410047AED3 /* temperature.swift */; };
+		B8EE305926038AF70047AED3 /* waxingEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE305826038AF70047AED3 /* waxingEquipment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B8EE304B25FFC0B40047AED3 /* sports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sports.swift; sourceTree = "<group>"; };
 		B8EE3050260262C80047AED3 /* SimpleListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListItemView.swift; sourceTree = "<group>"; };
 		B8EE3054260264410047AED3 /* temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temperature.swift; sourceTree = "<group>"; };
+		B8EE305826038AF70047AED3 /* waxingEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waxingEquipment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				B8EE304B25FFC0B40047AED3 /* sports.swift */,
 				B8EE3054260264410047AED3 /* temperature.swift */,
+				B8EE305826038AF70047AED3 /* waxingEquipment.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EE305926038AF70047AED3 /* waxingEquipment.swift in Sources */,
 				B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */,
 				B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */,
 				B8EE3055260264410047AED3 /* temperature.swift in Sources */,
