@@ -13,6 +13,7 @@ struct sports: View {
             
          Text("There are many different snow sports in this world that are all very fun to do.  A couple of these sports require waxing")
             
+            
         }
     }
 }
