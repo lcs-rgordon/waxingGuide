@@ -98,12 +98,12 @@
 		B8EE304925FFBFF50047AED3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B8EE306C260507830047AED3 /* waxRecomendationWithTool */,
 				B8EE304B25FFC0B40047AED3 /* sports.swift */,
 				B8EE3054260264410047AED3 /* temperature.swift */,
 				B8EE305826038AF70047AED3 /* waxingEquipment.swift */,
 				B8EE305B2603957D0047AED3 /* skiingType.swift */,
 				B8EE3069260505170047AED3 /* finalPage.swift */,
+				B8EE306C260507830047AED3 /* waxRecomendationWithTool */,
 			);
 			path = Views;
 			sourceTree = "<group>";
