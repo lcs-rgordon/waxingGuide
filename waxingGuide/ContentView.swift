@@ -11,16 +11,21 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
         VStack{
-        
-        Text("⛷🎿Welcome to my waxing app🏂")
-            .padding()
+            Image("swixWaxes")
+                .padding(.bottom, 3.0)
+                
+            Text("⛷🎿🏂Welcome to my waxing app⛷🎿🏂")
+                .font(.largeTitle)
+                .multilineTextAlignment(.center)
+                .padding()
             
             NavigationLink(destination: temperature()){
                 
-                SimpleListItemView(title:"click to enter the waxing portal", caption: "")
+                SimpleListItemView(title:"Find your wax", caption: "")
             }
-    }
+    }.navigationTitle("Evan's App")
         }
+        .padding(.top, -20.0)
     }
 }
 

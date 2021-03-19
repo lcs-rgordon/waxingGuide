@@ -9,7 +9,22 @@ import SwiftUI
 
 struct waxingEquipment: View {
     var body: some View {
-        Text("What waxing equipment do you have")
+        NavigationView{
+            VStack{
+                Image("waxingEquipment")
+                
+        Text("What waxing equipment do you have?")
+                
+                NavigationLink( destination: skiingType()){
+                List{
+                    Text("other")
+                    Text("Waxing Iron")
+                    Text("RotoWool")
+                    Text("None")
+                }
+                }
+            }
+        }
     }
 }
 
