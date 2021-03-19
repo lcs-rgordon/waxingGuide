@@ -9,10 +9,25 @@ import SwiftUI
 
 struct skiingType: View {
     var body: some View {
-        Text("What type of skier are you?")
-            .padding(.top, -200.0)
-        HStack{
-            Image("Klaebo")
+        NavigationView{
+            VStack{
+                Text("What type of skier are you?")
+                HStack{
+                    Image("Klaebo")
+                        .padding(.leading, 35.0)
+                    Image("casualSkier")
+                        .padding(.trailing, 35.0)
+                }
+                
+                List{
+                    Text("casual skier")
+                    Text("Racer or training")
+                    Text("Other")
+                }
+                .padding(.leading, 50.0)
+                
+            }
+            .padding(.bottom, -55.0)
         }
     }
 }

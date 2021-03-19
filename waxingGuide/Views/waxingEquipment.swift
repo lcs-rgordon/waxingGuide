@@ -13,15 +13,15 @@ struct waxingEquipment: View {
             VStack{
                 Image("waxingEquipment")
                 
-        Text("What waxing equipment do you have?")
+                Text("What waxing equipment do you have?")
                 
                 NavigationLink( destination: skiingType()){
-                List{
-                    Text("other")
-                    Text("Waxing Iron")
-                    Text("RotoWool")
-                    Text("None")
-                }
+                    List{
+                        Text("other")
+                        Text("Waxing Iron")
+                        Text("RotoWool")
+                        Text("None")
+                    }
                 }
             }
         }

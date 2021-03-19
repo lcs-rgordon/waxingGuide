@@ -16,6 +16,13 @@
 		B8EE3055260264410047AED3 /* temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3054260264410047AED3 /* temperature.swift */; };
 		B8EE305926038AF70047AED3 /* waxingEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE305826038AF70047AED3 /* waxingEquipment.swift */; };
 		B8EE305C2603957D0047AED3 /* skiingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE305B2603957D0047AED3 /* skiingType.swift */; };
+		B8EE306A260505170047AED3 /* finalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3069260505170047AED3 /* finalPage.swift */; };
+		B8EE306E2605086E0047AED3 /* warmestWax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE306D2605086E0047AED3 /* warmestWax.swift */; };
+		B8EE3073260508830047AED3 /* warmWax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3072260508830047AED3 /* warmWax.swift */; };
+		B8EE3076260508920047AED3 /* idealConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3075260508920047AED3 /* idealConditions.swift */; };
+		B8EE3079260508AF0047AED3 /* averageTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE3078260508AF0047AED3 /* averageTemp.swift */; };
+		B8EE307C260508C20047AED3 /* cold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE307B260508C20047AED3 /* cold.swift */; };
+		B8EE307F260508CF0047AED3 /* freezing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE307E260508CF0047AED3 /* freezing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		B8EE3054260264410047AED3 /* temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temperature.swift; sourceTree = "<group>"; };
 		B8EE305826038AF70047AED3 /* waxingEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waxingEquipment.swift; sourceTree = "<group>"; };
 		B8EE305B2603957D0047AED3 /* skiingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skiingType.swift; sourceTree = "<group>"; };
+		B8EE3069260505170047AED3 /* finalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalPage.swift; sourceTree = "<group>"; };
+		B8EE306D2605086E0047AED3 /* warmestWax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmestWax.swift; sourceTree = "<group>"; };
+		B8EE3072260508830047AED3 /* warmWax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmWax.swift; sourceTree = "<group>"; };
+		B8EE3075260508920047AED3 /* idealConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealConditions.swift; sourceTree = "<group>"; };
+		B8EE3078260508AF0047AED3 /* averageTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = averageTemp.swift; sourceTree = "<group>"; };
+		B8EE307B260508C20047AED3 /* cold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cold.swift; sourceTree = "<group>"; };
+		B8EE307E260508CF0047AED3 /* freezing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freezing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +98,27 @@
 		B8EE304925FFBFF50047AED3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B8EE306C260507830047AED3 /* waxRecomendationWithTool */,
 				B8EE304B25FFC0B40047AED3 /* sports.swift */,
 				B8EE3054260264410047AED3 /* temperature.swift */,
 				B8EE305826038AF70047AED3 /* waxingEquipment.swift */,
 				B8EE305B2603957D0047AED3 /* skiingType.swift */,
+				B8EE3069260505170047AED3 /* finalPage.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B8EE306C260507830047AED3 /* waxRecomendationWithTool */ = {
+			isa = PBXGroup;
+			children = (
+				B8EE306D2605086E0047AED3 /* warmestWax.swift */,
+				B8EE3072260508830047AED3 /* warmWax.swift */,
+				B8EE3075260508920047AED3 /* idealConditions.swift */,
+				B8EE3078260508AF0047AED3 /* averageTemp.swift */,
+				B8EE307B260508C20047AED3 /* cold.swift */,
+				B8EE307E260508CF0047AED3 /* freezing.swift */,
+			);
+			path = waxRecomendationWithTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +191,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8EE305926038AF70047AED3 /* waxingEquipment.swift in Sources */,
+				B8EE306A260505170047AED3 /* finalPage.swift in Sources */,
 				B8EE305C2603957D0047AED3 /* skiingType.swift in Sources */,
 				B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */,
+				B8EE306E2605086E0047AED3 /* warmestWax.swift in Sources */,
+				B8EE307F260508CF0047AED3 /* freezing.swift in Sources */,
+				B8EE3073260508830047AED3 /* warmWax.swift in Sources */,
 				B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */,
 				B8EE3055260264410047AED3 /* temperature.swift in Sources */,
 				B8EE304C25FFC0B40047AED3 /* sports.swift in Sources */,
+				B8EE3079260508AF0047AED3 /* averageTemp.swift in Sources */,
+				B8EE307C260508C20047AED3 /* cold.swift in Sources */,
 				B8EE3051260262C80047AED3 /* SimpleListItemView.swift in Sources */,
+				B8EE3076260508920047AED3 /* idealConditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
