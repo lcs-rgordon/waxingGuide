@@ -30,7 +30,7 @@ struct temperature: View {
                         Text("between -10 and -18")
                         Text("between -16 and -32")
                         Text("below -32")
-                        let _ = readLine()!
+                        let temp = readLine()
                     }
                 }
                 .navigationTitle("Temp on the day")

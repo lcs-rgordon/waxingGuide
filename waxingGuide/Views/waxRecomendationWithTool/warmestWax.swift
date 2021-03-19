@@ -10,7 +10,11 @@ import SwiftUI
 struct warmestWax: View {
     var body: some View {
         VStack{
-        Text("Looks like you")
+        Text("""
+Looks like you are planning on going on a pretty warm day
+
+
+""")
         }
     }
 }
