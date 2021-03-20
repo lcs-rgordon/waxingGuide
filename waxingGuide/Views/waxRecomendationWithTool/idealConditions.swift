@@ -9,7 +9,15 @@ import SwiftUI
 
 struct idealConditions: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+        Text("These are the best conditions to ski in, you don't need to dress to warmly and it isn't slow.  For these conditions the best wax is the HS7 or TS7B")
+            
+            HStack{
+                Image("idealConditions")
+                Image("idealConditions2")
+            }
+            Text("Set the waxing iron to 140 degrees celsius (284 degrees fahrenheit).  Put wax on the ski than let cool for 10 minutes or more and scrape the wax off.")
+        }
     }
 }
 
