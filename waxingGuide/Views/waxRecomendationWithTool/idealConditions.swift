@@ -16,7 +16,7 @@ struct idealConditions: View {
                 Image("idealConditions")
                 Image("idealConditions2")
             }
-            Text("Set the waxing iron to 140 degrees celsius (284 degrees fahrenheit).  Put wax on the ski than let cool for 10 minutes or more and scrape the wax off.")
+            Text("Set the waxing iron to 150 degrees celsius (320 degrees fahrenheit).  Put wax on the ski than let cool for 10 minutes or more and scrape the wax off.")
         }
     }
 }
