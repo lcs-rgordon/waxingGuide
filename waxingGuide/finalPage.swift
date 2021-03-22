@@ -10,15 +10,18 @@ import SwiftUI
 struct finalPage: View {
   
     @State var temp: String
-    @State var equimpent: String
-    @State var skierType
-    var body: some View {
+    @State var equipment: String
+    @State var skierType: String
      
+    var body: some View {
+        if temp == "between -4 and +4"{
+            Text("ye")
+        }
     }
 }
 
 struct finalPage_Previews: PreviewProvider {
     static var previews: some View {
-        finalPage()
+        finalPage(temp: "between -4 and +4", equipment: "Waxing Iron", skierType: "casual skier")
     }
 }

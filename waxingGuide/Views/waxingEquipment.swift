@@ -10,6 +10,7 @@ import SwiftUI
 struct waxingEquipment: View {
     
     @ State var temp: String
+    
     var body: some View {
         VStack{
             Image("waxingEquipment")

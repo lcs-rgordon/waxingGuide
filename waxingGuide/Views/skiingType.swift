@@ -13,6 +13,7 @@ struct skiingType: View {
     @State var equipment: String
     
     var body: some View {
+        
         VStack{
             Text("What type of skier are you?")
             HStack{
@@ -23,18 +24,17 @@ struct skiingType: View {
             }
             
             List{
-                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "casual skier"))
-                {
+                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "casual skier")){
                     Text("casual skier")
                 }
+                
                 NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "Racer or Training"))  {
                     Text("Racer or training")
                 }
-                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType:"Other"))
-                {
+                
+                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType:"Other")){
                     Text("Other")
                 }
-                .padding(.leading, 50.0)
                 
             }
         }
