@@ -23,21 +23,29 @@ struct skiingType: View {
             }
             
             List{
-                Text("casual skier")
-                Text("Racer or training")
-                Text("Other")
+                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "casual skier"))
+                {
+                    Text("casual skier")
+                }
+                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType: "Racer or Training"))  {
+                    Text("Racer or training")
+                }
+                NavigationLink( destination: finalPage(temp: temp, equipment: equipment, skierType:"Other"))
+                {
+                    Text("Other")
+                }
+                .padding(.leading, 50.0)
+                
             }
-            .padding(.leading, 50.0)
-            
         }
     }
 }
-
-struct skiingType_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView{
-        skiingType()
     
+    struct skiingType_Previews: PreviewProvider {
+        static var previews: some View {
+            NavigationView{
+                skiingType(temp: "between -4 and +4", equipment: "rotoWool")
+                
+            }
         }
     }
-}

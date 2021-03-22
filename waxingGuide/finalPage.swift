@@ -9,12 +9,11 @@ import SwiftUI
 
 struct finalPage: View {
   
+    @State var temp: String
+    @State var equimpent: String
+    @State var skierType
     var body: some View {
-        if temp == "above 10" {
-        Text("Use the warmest wax you have")
-        } else if temp == "between 0 and 10"{
-            Text(warmestWax)
-        }
+     
     }
 }
 
