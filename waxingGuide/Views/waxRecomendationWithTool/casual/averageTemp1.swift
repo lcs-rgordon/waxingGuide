@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct averageTemp: View {
+struct averageTemp1: View {
     var body: some View {
         ScrollView{
             
@@ -22,7 +22,7 @@ struct averageTemp: View {
     }
 }
 
-struct averageTemp_Previews: PreviewProvider {
+struct averageTemp1_Previews: PreviewProvider {
     static var previews: some View {
         averageTemp()
     }

@@ -1,4 +1,13 @@
 //
+//  warmWax1.swift
+//  waxingGuide
+//
+//  Created by Evan Armstrong on 2021-03-22.
+//
+
+import SwiftUI
+
+//
 //  warmWax.swift
 //  waxingGuide
 //
@@ -7,7 +16,7 @@
 
 import SwiftUI
 
-struct warmWax: View {
+struct warmWax1: View {
     var body: some View {
         ScrollView{
             Text("""
@@ -32,7 +41,7 @@ These conditions can be some of the nicest to ski in but can sometimes be very s
     }
 }
 
-struct warmWax_Previews: PreviewProvider {
+struct warmWax1_Previews: PreviewProvider {
     static var previews: some View {
         warmWax()
     }

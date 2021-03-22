@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B88F7DBC26080A51006AB7AD /* warmestWax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F7DBB26080A51006AB7AD /* warmestWax.swift */; };
-		B88F7DC026080A6A006AB7AD /* warmWax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F7DBF26080A6A006AB7AD /* warmWax.swift */; };
-		B88F7DC326080A82006AB7AD /* idealConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F7DC226080A82006AB7AD /* idealConditions.swift */; };
-		B88F7DC626080A99006AB7AD /* averageTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F7DC526080A99006AB7AD /* averageTemp.swift */; };
-		B88F7DC926080AAD006AB7AD /* cold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F7DC826080AAD006AB7AD /* cold.swift */; };
-		B88F7DCC26080AC1006AB7AD /* freezing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F7DCB26080AC1006AB7AD /* freezing.swift */; };
+		B80B2C4E2608E88500FA3734 /* warmWax1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C4D2608E88500FA3734 /* warmWax1.swift */; };
+		B80B2C522608E8BE00FA3734 /* warmestWax1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C512608E8BE00FA3734 /* warmestWax1.swift */; };
+		B80B2C562608E8E500FA3734 /* freezing1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C552608E8E500FA3734 /* freezing1.swift */; };
+		B80B2C5A2608E90D00FA3734 /* averageTemp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C592608E90D00FA3734 /* averageTemp1.swift */; };
+		B80B2C5E2608E92A00FA3734 /* cold1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C5D2608E92A00FA3734 /* cold1.swift */; };
+		B80B2C622608E96C00FA3734 /* idealConditions1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B2C612608E96C00FA3734 /* idealConditions1.swift */; };
 		B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */; };
 		B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EE303825FFBE090047AED3 /* ContentView.swift */; };
 		B8EE303B25FFBE0E0047AED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EE303A25FFBE0E0047AED3 /* Assets.xcassets */; };
@@ -32,12 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B88F7DBB26080A51006AB7AD /* warmestWax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmestWax.swift; sourceTree = "<group>"; };
-		B88F7DBF26080A6A006AB7AD /* warmWax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmWax.swift; sourceTree = "<group>"; };
-		B88F7DC226080A82006AB7AD /* idealConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealConditions.swift; sourceTree = "<group>"; };
-		B88F7DC526080A99006AB7AD /* averageTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = averageTemp.swift; sourceTree = "<group>"; };
-		B88F7DC826080AAD006AB7AD /* cold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cold.swift; sourceTree = "<group>"; };
-		B88F7DCB26080AC1006AB7AD /* freezing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freezing.swift; sourceTree = "<group>"; };
+		B80B2C4D2608E88500FA3734 /* warmWax1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmWax1.swift; sourceTree = "<group>"; };
+		B80B2C512608E8BE00FA3734 /* warmestWax1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmestWax1.swift; sourceTree = "<group>"; };
+		B80B2C552608E8E500FA3734 /* freezing1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freezing1.swift; sourceTree = "<group>"; };
+		B80B2C592608E90D00FA3734 /* averageTemp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = averageTemp1.swift; sourceTree = "<group>"; };
+		B80B2C5D2608E92A00FA3734 /* cold1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cold1.swift; sourceTree = "<group>"; };
+		B80B2C612608E96C00FA3734 /* idealConditions1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealConditions1.swift; sourceTree = "<group>"; };
 		B8EE303325FFBE090047AED3 /* waxingGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waxingGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EE303625FFBE090047AED3 /* waxingGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waxingGuideApp.swift; sourceTree = "<group>"; };
 		B8EE303825FFBE090047AED3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,12 +85,12 @@
 		B88F7DBA26080A0B006AB7AD /* casual */ = {
 			isa = PBXGroup;
 			children = (
-				B88F7DBB26080A51006AB7AD /* warmestWax.swift */,
-				B88F7DBF26080A6A006AB7AD /* warmWax.swift */,
-				B88F7DC226080A82006AB7AD /* idealConditions.swift */,
-				B88F7DC526080A99006AB7AD /* averageTemp.swift */,
-				B88F7DC826080AAD006AB7AD /* cold.swift */,
-				B88F7DCB26080AC1006AB7AD /* freezing.swift */,
+				B80B2C4D2608E88500FA3734 /* warmWax1.swift */,
+				B80B2C512608E8BE00FA3734 /* warmestWax1.swift */,
+				B80B2C552608E8E500FA3734 /* freezing1.swift */,
+				B80B2C592608E90D00FA3734 /* averageTemp1.swift */,
+				B80B2C5D2608E92A00FA3734 /* cold1.swift */,
+				B80B2C612608E96C00FA3734 /* idealConditions1.swift */,
 			);
 			path = casual;
 			sourceTree = "<group>";
@@ -225,25 +225,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8EE305926038AF70047AED3 /* waxingEquipment.swift in Sources */,
-				B88F7DBC26080A51006AB7AD /* warmestWax.swift in Sources */,
+				B80B2C5E2608E92A00FA3734 /* cold1.swift in Sources */,
 				B8EE306A260505170047AED3 /* finalPage.swift in Sources */,
 				B8EE305C2603957D0047AED3 /* skiingType.swift in Sources */,
 				B8EE303925FFBE090047AED3 /* ContentView.swift in Sources */,
-				B88F7DC926080AAD006AB7AD /* cold.swift in Sources */,
 				B8EE306E2605086E0047AED3 /* warmestWax.swift in Sources */,
-				B88F7DCC26080AC1006AB7AD /* freezing.swift in Sources */,
 				B8EE307F260508CF0047AED3 /* freezing.swift in Sources */,
+				B80B2C622608E96C00FA3734 /* idealConditions1.swift in Sources */,
 				B8EE3073260508830047AED3 /* warmWax.swift in Sources */,
 				B8EE303725FFBE090047AED3 /* waxingGuideApp.swift in Sources */,
-				B88F7DC626080A99006AB7AD /* averageTemp.swift in Sources */,
 				B8EE3055260264410047AED3 /* temperature.swift in Sources */,
+				B80B2C522608E8BE00FA3734 /* warmestWax1.swift in Sources */,
+				B80B2C5A2608E90D00FA3734 /* averageTemp1.swift in Sources */,
+				B80B2C4E2608E88500FA3734 /* warmWax1.swift in Sources */,
+				B80B2C562608E8E500FA3734 /* freezing1.swift in Sources */,
 				B8EE304C25FFC0B40047AED3 /* sports.swift in Sources */,
 				B8EE3079260508AF0047AED3 /* averageTemp.swift in Sources */,
 				B8EE307C260508C20047AED3 /* cold.swift in Sources */,
 				B8EE3051260262C80047AED3 /* SimpleListItemView.swift in Sources */,
 				B8EE3076260508920047AED3 /* idealConditions.swift in Sources */,
-				B88F7DC326080A82006AB7AD /* idealConditions.swift in Sources */,
-				B88F7DC026080A6A006AB7AD /* warmWax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

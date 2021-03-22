@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct warmestWax: View {
+struct warmestWax1: View {
     var body: some View {
         ScrollView{
             Text("""
-Looks like you are planning on going on a pretty warm day.  These conditions are never really fast but the warm wax is the best you can do to help with this. 
+Looks like you are planning on going on a pretty warm day.  These conditions are never really fast but the warm wax is the best you can do to help with this.
 """)
                 .padding(.horizontal, 12.0)
             HStack{
@@ -29,7 +29,7 @@ Set your iron temp to 150 degrees celcius (302 degrees fehrenheit).  Put wax on 
     }
 }
 
-struct warmestWax_Previews: PreviewProvider {
+struct warmestWax1_Previews: PreviewProvider {
     static var previews: some View {
         warmestWax()
     }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct idealConditions: View {
+struct idealConditions1: View {
     var body: some View {
         ScrollView{
         Text("These are the best conditions to ski in, you don't need to dress to warmly and it isn't slow.  For these conditions the best wax is the HS7 or TS7B")
@@ -21,7 +21,7 @@ struct idealConditions: View {
     }
 }
 
-struct idealConditions_Previews: PreviewProvider {
+struct idealConditions1_Previews: PreviewProvider {
     static var previews: some View {
         idealConditions()
     }

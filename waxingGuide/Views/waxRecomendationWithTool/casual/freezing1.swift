@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct freezing: View {
+struct freezing1: View {
     var body: some View {
         ScrollView{
         Text("For temperatures in between -14 and -32 degrees celcius the best wax is the pro polar.")
@@ -18,7 +18,7 @@ struct freezing: View {
     }
 }
 
-struct freezing_Previews: PreviewProvider {
+struct freezing1_Previews: PreviewProvider {
     static var previews: some View {
         freezing()
     }
