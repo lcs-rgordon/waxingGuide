@@ -14,56 +14,59 @@ struct finalPage: View {
     @State var equipment: String
     @State var skierType: String
     
+    // What page should be showed
+    @State private var showIdealConditionsOne = false
+    @State private var showWarmWax = false
+
     // MARK: Computed properties
-    var advice: some View {
-        
-
-        switch temp {
-        case "above 10":
-            
-            switch equipment {
-            case "Waxing Iron":
-                
-                switch skierType {
-                case "casual skier":
-                    return AnyView { warmWax1() }
-                case "Racer or training":
-                    return AnyView { idealConditions() }
-                default:
-                    return AnyView { warmWax1() }
-                }
-                
-            case: "Roto Wool"
-                
-                switch skierType {
-                case "casual skier":
-                    return AnyView { warmWax1() }
-                case "Racer or training":
-                    return AnyView { idealConditions() }
-                default:
-                    return AnyView { warmWax1() }
-                }
-
-            default:
-                return AnyView { warmWax1() }
-            }
-            
-        case "between 0 and 10":
-            return AnyView { warmWax1() }
-        default:
-            return AnyView { warmWax1() }
-        }
-                
-    }
     
     var body: some View {
 
         VStack {
-            Text("Above")
-            advice
-            Text("Below")
-        }
+            
+            // Based on the *state* of the properties (that have been set in the .onAppear() closure) show the appropriate page
+            if showWarmWax { warmWax1() }
+            else if showIdealConditionsOne { idealConditions1() }
 
+        }
+        .onAppear() {
+            switch temp {
+            case "above 10":
+                
+                switch equipment {
+                case "Waxing Iron":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showWarmWax = true
+                    case "Racer or training":
+                        showIdealConditionsOne = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+                    
+                case "Roto Wool":
+                    
+                    switch skierType {
+                    case "casual skier":
+                        showWarmWax = true
+                    case "Racer or training":
+                        showIdealConditionsOne = true
+                    default:
+                        print("Error: this should never happen – probably caused by a typo in a case statement.")
+                    }
+
+                default:
+                    print("Error: this should never happen – probably caused by a typo in a case statement.")
+                }
+                
+            case "between 0 and 10":
+                showWarmWax = true
+            default:
+                print("Error: this should never happen – probably caused by a typo in a case statement.")
+            }
+                  
+        }
 
     }
 }
