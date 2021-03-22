@@ -2,7 +2,7 @@
 //  warmestWax.swift
 //  waxingGuide
 //
-//  Created by Evan Armstrong on 2021-03-19.
+//  Created by Evan Armstrong on 2021-03-21.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ struct warmestWax: View {
     var body: some View {
         ScrollView{
             Text("""
-Looks like you are planning on going on a pretty warm day.  These conditions are never really fast but the warm wax is the best you can do to help with this.
+Looks like you are planning on going on a pretty warm day.  These conditions are never really fast but the warm wax is the best you can do to help with this. 
 """)
                 .padding(.horizontal, 12.0)
             HStack{
