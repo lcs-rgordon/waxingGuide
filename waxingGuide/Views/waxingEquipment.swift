@@ -20,6 +20,8 @@ struct waxingEquipment: View {
                     Text("Waxing Iron")
                     Text("RotoWool")
                     Text("None")
+                    
+                    let tool = readLine()!
                 }
             }
         }

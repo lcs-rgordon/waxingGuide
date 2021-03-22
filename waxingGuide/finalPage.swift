@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct finalPage: View {
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if temp == "above 10" {
+        Text("Use the warmest wax you have")
+        } else if temp == "between 0 and 10"{
+            Text(warmestWax)
+        }
     }
 }
 
