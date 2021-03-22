@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct skiingType: View {
+    
+    @State var temp: String
+    @State var equipment: String
+    
     var body: some View {
         VStack{
             Text("What type of skier are you?")

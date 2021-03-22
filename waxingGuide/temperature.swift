@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct temperature: View {
-   
+    
+    
     var body: some View {
         VStack{
             Text("What will the temerature be on the activity day? ")
@@ -19,15 +20,33 @@ struct temperature: View {
                 .font(.caption2)
                 .padding(.horizontal)
             Spacer()
-            NavigationLink(destination: waxingEquipment()){
-                List (Temp) { thing in
-                    NavigationLink(destination: finalPage)
-                    
-                  
+            
+            List{
+                NavigationLink(destination: waxingEquipment(temp: "above 10")){
+                    Text("above 10")
+                }
+                NavigationLink(destination: waxingEquipment(temp:"between 0 and 10")){
+                    Text("between 0 and 10")
+                }
+                NavigationLink(destination: waxingEquipment(temp: "between -4 and +4")){
+                    Text("between +4 and -4")
+                }
+                NavigationLink(destination: waxingEquipment(temp:"between -8 and -2")) {
+                    Text("between -2 and -8")
+                }
+                NavigationLink(destination: waxingEquipment(temp:"between -12 and -6")){
+                    Text("between -6 and -12")
+                }
+                NavigationLink(destination: waxingEquipment(temp:"between -10 and -18")){
+                    Text("between -10 and -18")
+                }
+                NavigationLink(destination: waxingEquipment(temp: "between -32 and -16"))
+                {
+                    Text("between -16 and -32")
                 }
             }
-            .navigationTitle("Temp on the day")
         }
+        .navigationTitle("Temp on the day")
     }
 }
 struct temperature_Previews: PreviewProvider {
