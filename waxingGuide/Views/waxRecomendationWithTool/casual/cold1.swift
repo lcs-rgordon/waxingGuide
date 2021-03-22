@@ -27,6 +27,6 @@ struct cold1: View {
 
 struct cold1_Previews: PreviewProvider {
     static var previews: some View {
-        cold()
+        cold1()
     }
 }
